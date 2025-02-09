@@ -1,0 +1,31 @@
+// filepath: /HTL-Defense/HTL-Defense/backend/server/api/README.md
+# API Documentation
+
+This directory contains the REST/gRPC APIs for the central server of the HTL-Defense project. 
+
+## Overview
+
+The APIs are designed to facilitate communication between the frontend and the backend services, allowing for efficient data exchange and interaction with the threat analysis functionalities.
+
+## Endpoints
+
+- **GET /api/v1/threats**: Retrieve a list of detected threats.
+- **POST /api/v1/threats**: Submit a new threat for analysis.
+- **GET /api/v1/agents**: List all registered agents.
+- **POST /api/v1/agents**: Register a new agent.
+
+## Usage
+
+To use the APIs, ensure that the server is running and accessible. You can interact with the endpoints using tools like Postman or curl.
+
+## Authentication
+
+Some endpoints may require authentication. Please refer to the authentication section in the main server documentation for more details.
+
+## Error Handling
+
+The APIs will return standard HTTP status codes to indicate the success or failure of requests. Please refer to the documentation for specific error codes and their meanings.
+
+## Contribution
+
+If you would like to contribute to the API development, please follow the contribution guidelines outlined in the project's documentation.
