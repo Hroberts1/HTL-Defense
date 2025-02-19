@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  log_level: info
+database:
+  connection_string: "user:password@tcp(localhost:3306)/dbname"
+  max_connections: 100
+agent:
+  windows:
+    enabled: true
+    config_path: "agent/windows/config.json"
+  linux:
+    enabled: true
+    config_path: "agent/linux/config.json"
+sandbox:
+  qemu_path: "/usr/bin/qemu"
+  memory: "512M"
+  cpu: "2"
